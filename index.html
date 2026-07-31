@@ -199,11 +199,11 @@
 
       <div class="media-row">
         <div class="video-wrapper">
-          <img class="gallery-img" src="alu/main.jpg" alt="ALU Hardware Overview" style="width:100%; height:100%; object-fit:cover;" onclick="openLightbox(this.src)" />
+          <img loading="lazy" decoding="async" class="gallery-img" src="alu/main.jpg" alt="ALU Hardware Overview" style="width:100%; height:100%; object-fit:cover;" onclick="openLightbox(this.src)" />
         </div>
         <div class="image-gallery">
-          <img class="gallery-img" src="alu/logi_cla.png" alt="Carry Lookahead Diagram" onclick="openLightbox(this.src)" />
-          <img class="gallery-img" src="alu/pcb.png" alt="KiCad PCB Layout" onclick="openLightbox(this.src)" />
+          <img loading="lazy" decoding="async" class="gallery-img" src="alu/logi_cla.png" alt="Carry Lookahead Diagram" onclick="openLightbox(this.src)" />
+          <img loading="lazy" decoding="async" class="gallery-img" src="alu/pcb.png" alt="KiCad PCB Layout" onclick="openLightbox(this.src)" />
         </div>
       </div>
 
@@ -236,12 +236,407 @@
 
 
 
+    <!-- PROJECT 2 -->
+    <article class="project-card">
+      <h2 class="project-title">MC14500 Breadboard Computer</h2>
+
+      <div class="media-row">
+        <div class="video-wrapper">
+          <video controls muted playsinline poster="breadboard_computer/top.jpg" style="width:100%; height:100%; object-fit:cover;">
+            <source src="breadboard_computer/main.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="image-gallery">
+          <img loading="lazy" decoding="async" class="gallery-img" src="breadboard_computer/top.jpg" alt="Breadboard Top View" onclick="openLightbox(this.src)" />
+        </div>
+      </div>
+
+      <div class="project-details">
+        <p><strong>Breadboard computer built to study processor architecture and bridge discrete digital hardware with software toolchains.</strong></p>
+        <p>Implemented around the Motorola MC14500 1-bit logic processor, this project explores foundational computer engineering principles from low-level circuit design up to high-level code compilation. The build pairs a custom discrete logic architecture with a self-developed compiler toolchain and software-emulated arithmetic algorithms.</p>
+
+        <h3>Highlights</h3>
+        <ul>
+          <li><strong>Automated Compiler and Programming Toolchain:</strong> Developed a custom Python assembler and Arduino interface that compiles assembly code into binary payloads, bypassing manual DIP-switch entry to program the onboard SRAM directly.</li>
+          <li><strong>Hardware Interfacing and Discrete Circuit Design:</strong> Engineered a 2N2222 transistor amplifier stage to resolve data bus drive mismatches and built a custom Diode-Transistor Logic (DTL) XOR circuit to patch processor timing anomalies.</li>
+          <li><strong>1-Bit Arithmetic Software Emulation:</strong> Authored software algorithms to execute 6-bit binary addition and 3x4-bit shift-and-add multiplication purely through 1-bit boolean logic primitives on a CPU lacking a dedicated ALU.</li>
+        </ul>
+
+        <div class="tag-list">
+          <span class="tag">MC14500</span>
+          <span class="tag">Computer Architecture</span>
+          <span class="tag">Python Compiler</span>
+          <span class="tag">Assembly</span>
+          <span class="tag">Breadboard Engineering</span>
+        </div>
+      </div>
+    </article>
+
+
+
+
+
+
+
+
+    <!-- PROJECT 3 -->
+    <article class="project-card">
+      <h2 class="project-title">Ontology Expert System</h2>
+
+      <div class="media-row">
+        <div class="video-wrapper">
+          <img loading="lazy" decoding="async" class="gallery-img" src="expert_system/main.jpg" alt="Expert System Architecture" style="width:100%; height:100%; object-fit:cover;" onclick="openLightbox(this.src)" />
+        </div>
+        <div class="image-gallery">
+          <img loading="lazy" decoding="async" class="gallery-img" src="expert_system/grammar.png" alt="Grammar Structure" onclick="openLightbox(this.src)" />
+          <img loading="lazy" decoding="async" class="gallery-img" src="expert_system/parser.png" alt="YACC Parser Output" onclick="openLightbox(this.src)" />
+          <img loading="lazy" decoding="async" class="gallery-img" src="expert_system/syntax.png" alt="Syntax Logic Tree" onclick="openLightbox(this.src)" />
+        </div>
+      </div>
+
+      <div class="project-details">
+        <p><strong>Classified prototype for revolutionary AI paradigm.</strong></p>
+        <p>Over the course of my university studies, I took part in an effort for the development of an expert system AI, based on structured semantic knowledge stored as ontologies, rather than the neural network approach. The project had several breakthroughs using interdisciplinary methods, such as the application of epistemology and grammar structures in order to create a program that simulates human reasoning. By accumulating an elaborate enough knowledge base, the principle is that the AI is able to formulate emergent ideas that are derived from prior principles.</p>
+
+        <h3>Highlights</h3>
+        <ul>
+          <li><strong>Confidential Codebase:</strong> Because several unconventional approaches were implemented to success, the research material and codebase that grew out of the project are kept confidential, as agreed upon by the members of the project, until development efforts are resumed.</li>
+          <li><strong>Natural Semantic Structures:</strong> A unique approach was taken to the application of semantic structures, through analyzing the meaning behind spoken languages, and deriving an organized analyzable structure that can be understood by a machine.</li>
+          <li><strong>Parsed Grammar Sentences:</strong> The knowledge base stores actual sentences instead of fuzzy logic, organized with a unique grammar that is parsed using a YACC Python script.</li>
+          <li><strong>C++ Inference Engine:</strong> The inference engine was written in C++ and navigates the structures of the knowledge base in order to derive information which is not explicitly stored, but can be deduced.</li>
+        </ul>
+
+        <div class="tag-list">
+          <span class="tag">Artificial Intelligence</span>
+          <span class="tag">Expert Systems</span>
+          <span class="tag">Ontologies</span>
+          <span class="tag">C++</span>
+          <span class="tag">Python / YACC</span>
+        </div>
+      </div>
+    </article>
+
+
+
+
+
+
+
+
+    <!-- PROJECT 4 -->
+    <article class="project-card">
+      <h2 class="project-title">Modern Architecture Facade Segmentation</h2>
+
+      <div class="media-row">
+        <div class="video-wrapper">
+          <img loading="lazy" decoding="async" class="gallery-img" src="facade_recognition/main.jpg" alt="Facade Segmentation Main Output" style="width:100%; height:100%; object-fit:cover;" onclick="openLightbox(this.src)" />
+        </div>
+        <div class="image-gallery">
+          <img loading="lazy" decoding="async" class="gallery-img" src="facade_recognition/1.jpg" alt="Sample Facade Detection 1" onclick="openLightbox(this.src)" />
+          <img loading="lazy" decoding="async" class="gallery-img" src="facade_recognition/2.jpg" alt="Sample Facade Detection 2" onclick="openLightbox(this.src)" />
+        </div>
+      </div>
+
+      <div class="project-details">
+        <p><strong>A U-Net semantic segmentation model designed to classify architectural elements on modern building facades.</strong></p>
+        <p>Trained on the Irregular Facades dataset, this computer vision project automates multi-class facade recognition across six structural classes. The pipeline leverages specialized data augmentations, a custom U-Net encoder-decoder architecture, and weighted validation metrics designed to tackle severe spatial class imbalances.</p>
+
+        <h3>Highlights</h3>
+        <ul>
+          <li><strong>Weighted IoU Evaluation:</strong> Utilizes a custom callback to calculate Weighted Mean IoU (WMIoU) at epoch-end, accounting for extreme object size disparities to trigger optimal model saves.</li>
+          <li><strong>Targeted Augmentation:</strong> Applies non-isotropic scaling and dimensional padding tailored specifically for architectural geometries.</li>
+          <li><strong>Adaptive Training:</strong> Implements dynamic learning rate reduction and early stopping to prevent overfitting on complex structural shapes.</li>
+        </ul>
+
+        <div class="tag-list">
+          <span class="tag">Computer Vision</span>
+          <span class="tag">U-Net</span>
+          <span class="tag">PyTorch</span>
+          <span class="tag">Semantic Segmentation</span>
+          <span class="tag">Deep Learning</span>
+        </div>
+      </div>
+    </article>
+
+
+
+
+
+
+
+
+    <!-- PROJECT 5 -->
+    <article class="project-card">
+      <h2 class="project-title">Real-Time FFT Spectrum Analyzer</h2>
+
+      <div class="media-row">
+        <div class="video-wrapper">
+          <video controls muted playsinline poster="fft/pcb.jpg" style="width:100%; height:100%; object-fit:cover;">
+            <source src="fft/main.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="image-gallery">
+          <img loading="lazy" decoding="async" class="gallery-img" src="fft/pcb.jpg" alt="AVR Board PCB Layout" onclick="openLightbox(this.src)" />
+        </div>
+      </div>
+
+      <div class="project-details">
+        <p><strong>An embedded C spectrum analyzer that computes a 16-point FFT on an ATmega microcontroller using Q5 fixed-point arithmetic and visualizes real-time frequency bins on an 8x8 LED matrix.</strong></p>
+        <p>Designed on custom AVR hardware, this project implements a Radix-2 FFT butterfly algorithm to process real-time analog signals. The system bridges digital signal processing (DSP) theory with resource-constrained embedded architecture, executing complex math entirely in integer fixed-point arithmetic without floating-point overhead.</p>
+
+        <h3>Highlights</h3>
+        <ul>
+          <li><strong>Q5 Fixed-Point FFT Engine:</strong> Implemented a 16-point, 4-stage Radix-2 butterfly algorithm using Q5 fixed-point complex numbers (scaled by 32) to compute spectrum transformations via fast integer bit-shifts on an 8-bit MCU.</li>
+          <li><strong>Interrupt-Driven ADC Sampling:</strong> Configured Timer1 CTC interrupts to drive hardware ADC sampling at precise time intervals, auto-centering incoming AC audio signals around zero for DSP processing.</li>
+          <li><strong>Hardware SPI and LED Matrix Driver:</strong> Authored a low-level SPI driver for the MAX7219 controller to render frequency bins, mapping complex magnitudes to LED matrix column heights via bit-mask quantization.</li>
+          <li><strong>Embedded Telemetry and System Safety:</strong> Integrated watchdog timer management (wdogtrig) to prevent lockups during matrix transformations alongside an interactive USART serial terminal for live signal debugging.</li>
+        </ul>
+
+        <div class="tag-list">
+          <span class="tag">Embedded C</span>
+          <span class="tag">ATmega / AVR</span>
+          <span class="tag">DSP</span>
+          <span class="tag">Fixed-Point Math</span>
+          <span class="tag">SPI Protocol</span>
+        </div>
+      </div>
+    </article>
+
+
+
+
+
+
+
+
+    <!-- PROJECT 6 -->
+    <article class="project-card">
+      <h2 class="project-title">Offline NAS Media Server</h2>
+
+      <div class="media-row">
+        <div class="video-wrapper">
+          <img loading="lazy" decoding="async" class="gallery-img" src="homenas/main.jpg" alt="HomeNAS Main Dashboard" style="width:100%; height:100%; object-fit:cover;" onclick="openLightbox(this.src)" />
+        </div>
+        <div class="image-gallery">
+          <img loading="lazy" decoding="async" class="gallery-img" src="homenas/home.png" alt="Homepage UI" onclick="openLightbox(this.src)" />
+          <img loading="lazy" decoding="async" class="gallery-img" src="homenas/albums.png" alt="Album Grid View" onclick="openLightbox(this.src)" />
+          <img loading="lazy" decoding="async" class="gallery-img" src="homenas/list.png" alt="File Directory List" onclick="openLightbox(this.src)" />
+          <img loading="lazy" decoding="async" class="gallery-img" src="homenas/music.png" alt="Audio Player Interface" onclick="openLightbox(this.src)" />
+          <img loading="lazy" decoding="async" class="gallery-img" src="homenas/gallery.png" alt="Photo Gallery Module" onclick="openLightbox(this.src)" />
+          <img loading="lazy" decoding="async" class="gallery-img" src="homenas/video.png" alt="Video Player Interface" onclick="openLightbox(this.src)" />
+          <img loading="lazy" decoding="async" class="gallery-img" src="homenas/folders.png" alt="Folder Browser" onclick="openLightbox(this.src)" />
+        </div>
+      </div>
+
+      <div class="project-details">
+        <p><strong>Personal use media server framework designed for local offline streaming, file management, and system administration across intranet devices.</strong></p>
+        <p>Iteratively built to operate completely offline, this self-hosted media suite streams video, audio, and files across desktop and mobile devices. Avoiding streaming services and eliminating heavy third-party dependencies, the platform leverages a native PHP, Bash, and Linux architecture to deliver dynamic recommendation engines, customizable UI, and remote network system controls.</p>
+
+        <h3>Highlights</h3>
+        <ul>
+          <li><strong>Custom Dependency-Free Web Architecture:</strong> Built a lightweight, self-contained web framework using pure HTML/CSS, PHP, and Apache on Linux, avoiding third-party front-end libraries to maximize efficiency and stability.</li>
+          <li><strong>Algorithmic Recommendations:</strong> Developed specialized audio ("Concert") and video ("Theater") modules featuring genre-filtered queries, radio-style shuffle algorithms, and contextual video recommendations.</li>
+          <li><strong>Automated File Indexing and Media Processing:</strong> Created back-end pipelines to systematically index the local filesystem ("Firmament"), generating dynamic media thumbnails, file previews, and structured album layouts on the fly.</li>
+          <li><strong>Linux System Integration and Remote Controls:</strong> Wrote custom Bash and PHP system scripts allowing secure OS-level administration (rsync, shutdown) directly through the web interface.</li>
+        </ul>
+
+        <div class="tag-list">
+          <span class="tag">PHP</span>
+          <span class="tag">Linux</span>
+          <span class="tag">Apache</span>
+          <span class="tag">Self-Hosted</span>
+        </div>
+      </div>
+    </article>
+
+
+
+
+
+
+
+
+    <!-- PROJECT 7 -->
+    <article class="project-card">
+      <h2 class="project-title">Monte Carlo Analysis of a BJT Memory Cell</h2>
+
+      <div class="media-row">
+        <div class="video-wrapper">
+          <img loading="lazy" decoding="async" class="gallery-img" src="monte_carlo/main.png" alt="Monte Carlo Simulation Plot" style="width:100%; height:100%; object-fit:cover;" onclick="openLightbox(this.src)" />
+        </div>
+        <div class="image-gallery">
+          <img loading="lazy" decoding="async" class="gallery-img" src="monte_carlo/circuit.png" alt="BJT Memory Cell Schematic" onclick="openLightbox(this.src)" />
+          <img loading="lazy" decoding="async" class="gallery-img" src="monte_carlo/variation.png" alt="Parameter Gain Variance Curve" onclick="openLightbox(this.src)" />
+        </div>
+      </div>
+
+      <div class="project-details">
+        <p><strong>LTspice case study analyzing parameter distribution and reliability limits in a bipolar transistor memory cell.</strong></p>
+        <p>This engineering case study investigates a cross-coupled bipolar storage cell built using BCX19 NPN transistors and temperature-variant active loads. By combining operating point, AC small-signal, and transient Monte Carlo simulations, the research evaluates how ±10% transistor gain variations impact circuit stability, time constants, and transient settling times across thermal extremes.</p>
+
+        <h3>Highlights</h3>
+        <ul>
+          <li><strong>Monte Carlo Parameter Variance:</strong> Modeled a ±10% normal distribution on transistor gain in LTspice to quantify manufacturing imperfection impacts on node voltage dispersions and metastable state convergence.</li>
+          <li><strong>Feedback Impedance and Time Constants:</strong> Derived analytical expressions for low-frequency dominant time constants, incorporating Miller capacitance effects and loop-gain feedback mechanics into the equivalent resistance.</li>
+          <li><strong>Transient Settling Analysis:</strong> Evaluated transient step-response waveforms across thermal corners (0°C, 27°C, and 85°C), determining precise 90% settling time boundaries.</li>
+          <li><strong>Device Reliability Insights:</strong> Demonstrated how component variance forces metastable states to bifurcate into distinct binary output rails, highlighting fault-tolerance vulnerabilities in discrete bipolar storage topologies.</li>
+        </ul>
+
+        <div class="tag-list">
+          <span class="tag">LTspice</span>
+          <span class="tag">Monte Carlo Simulation</span>
+          <span class="tag">BJT Memory</span>
+          <span class="tag">Analog Circuit Design</span>
+          <span class="tag">Semiconductor Reliability</span>
+        </div>
+      </div>
+    </article>
+
+
+
+
+
+
+
+
+    <!-- PROJECT 8 -->
+    <article class="project-card">
+      <h2 class="project-title">Desktop Control Using an Enhanced USB Mouse Interface</h2>
+
+      <div class="media-row">
+        <div class="video-wrapper">
+          <img loading="lazy" decoding="async" class="gallery-img" src="mouse/main.jpg" alt="Mouse Prototype Hardware" style="width:100%; height:100%; object-fit:cover;" onclick="openLightbox(this.src)" />
+        </div>
+        <div class="image-gallery">
+          <img loading="lazy" decoding="async" class="gallery-img" src="mouse/side.jpg" alt="Thumbstick Ergonomics Side View" onclick="openLightbox(this.src)" />
+          <img loading="lazy" decoding="async" class="gallery-img" src="mouse/print.jpg" alt="PCB" onclick="openLightbox(this.src)" />
+          <img loading="lazy" decoding="async" class="gallery-img" src="mouse/pcb.png" alt="PCB" onclick="openLightbox(this.src)" />
+          <img loading="lazy" decoding="async" class="gallery-img" src="mouse/details.png" alt="PCB Details" onclick="openLightbox(this.src)" />
+          <img loading="lazy" decoding="async" class="gallery-img" src="mouse/block.png" alt="System Block Diagram" onclick="openLightbox(this.src)" />
+          <img loading="lazy" decoding="async" class="gallery-img" src="mouse/flowchart.png" alt="Firmware Flowchart" onclick="openLightbox(this.src)" />
+          <img loading="lazy" decoding="async" class="gallery-img" src="mouse/config.png" alt="Configuration" onclick="openLightbox(this.src)" />
+          <img loading="lazy" decoding="async" class="gallery-img" src="mouse/tests.jpg" alt="Prototyping" onclick="openLightbox(this.src)" />
+        </div>
+      </div>
+
+      <div class="project-details">
+        <p><strong>Open-hardware, high-performance gaming and productivity computer mouse.</strong></p>
+        <p>My Bachelor's Thesis investigates the biomechanical and technical feasibility of integrating a thumbstick into a precision mouse chassis to offload directional movement from the keyboard hand. While iterative prototyping determined that biomechanical coupling between the thumb and wrist renders simultaneous dual-analog input impractical for high-precision tasks, the project successfully produced a fully operational, professional-grade open-source mouse platform. Engineered to match commercial esports peripherals, the resulting device pairs high-tier optical tracking with robust hardware protection and modular embedded architecture, serving as an unlocked development platform for human-computer interaction research.</p>
+
+        <h3>Highlights</h3>
+        <ul>
+          <li><strong>Custom Hardware and Carrier PCB:</strong> Designed a carrier board interfacing a Raspberry Pi Pico (RP2040) with a PixArt PMW3360 optical sensor, incorporating dedicated ESD protection circuits and an integrated RGB status-feedback system.</li>
+          <li><strong>Low-Latency Embedded Firmware:</strong> Developed high-throughput C/C++ firmware leveraging TinyUSB to achieve a 1000 Hz USB polling rate, configurable contact switch debouncing (1 ms to 20 ms), and profile selection routines.</li>
+          <li><strong>Biomechanical and Ergonomic Research:</strong> Conducted empirical usability testing on dual-input chassis prototypes, producing an ergonomic case study documenting how thumb stabilization constraints limit multi-surface mouse controls.</li>
+          <li><strong>Modular Platform Expansion:</strong> Engineered a fully unlocked hardware architecture featuring broken-out GPIOs, 3 unallocated ADC channels, an I2C/Stemma expansion footprint, and a socketed MCU structure for future revisions.</li>
+        </ul>
+
+        <div class="tag-list">
+          <span class="tag">RP2040 / C++</span>
+          <span class="tag">Hardware Design</span>
+          <span class="tag">PMW3360 Optical Sensor</span>
+          <span class="tag">USB Stack</span>
+          <span class="tag">Ergonomics Research</span>
+        </div>
+      </div>
+    </article>
+
+
+
+
+
+
+
+
+    <!-- PROJECT 9 -->
+    <article class="project-card">
+      <h2 class="project-title">UE5 Space Combat Framework</h2>
+
+      <div class="media-row">
+        <div class="video-wrapper" style="flex: 1 1 100%;">
+          <video controls muted playsinline style="width:100%; height:100%; object-fit:cover;">
+            <source src="ue5_shooter/main.webm" type="video/webm">
+          </video>
+        </div>
+      </div>
+
+      <div class="project-details">
+        <p><strong>Unreal Engine 5 prototype featuring math-driven flight physics, predictive aiming, and combat AI.</strong></p>
+        <p>Designed to blend the arcade flight mechanics of Ace Combat with open-world space trading loops, this project serves as a technical showcase of Blueprint systems architecture, vector math applications, and scalable gameplay frameworks in UE5. Every core mechanic, from physics-driven ship handling to UI spatial projections, was engineered from scratch with a heavy focus on modularity and math-driven gameplay systems.</p>
+
+        <h3>Highlights</h3>
+        <ul>
+          <li><strong>Ballistic Lead Math:</strong> Triangulates relative velocity vectors and projectile speed to calculate exact predictive lead angles for cannon auto-aim.</li>
+          <li><strong>Finite State Machine AI:</strong> Evaluates target positions to drive 5 dynamic combat behaviors, using offset waypoints and skill scaling to prevent endless circling in dogfights.</li>
+          <li><strong>Elliptical HUD and Radar Math:</strong> Uses 2D rotation matrices for radar tracking and projects 3D target vectors onto a 2D screen ellipse to dynamically guide off-screen tracking.</li>
+          <li><strong>6-DOF Flight Physics:</strong> Combines simple horizon-locked controls with full 6-Degrees-of-Freedom flight, dynamically linking turn rates to current ship velocity.</li>
+        </ul>
+
+        <div class="tag-list">
+          <span class="tag">Unreal Engine 5</span>
+          <span class="tag">Blueprints</span>
+          <span class="tag">3D Vector Math</span>
+          <span class="tag">Game AI</span>
+          <span class="tag">Physics Simulation</span>
+        </div>
+      </div>
+    </article>
+
+
+
+
+
+
+
+    <!-- PROJECT 10 -->
+    <article class="project-card">
+      <h2 class="project-title">IoT Cloud Weather Station</h2>
+
+      <div class="media-row">
+        <div class="video-wrapper">
+          <img loading="lazy" decoding="async" class="gallery-img" src="weather_station/main.png" alt="Weather Station Hardware Setup" style="width:100%; height:100%; object-fit:cover;" onclick="openLightbox(this.src)" />
+        </div>
+        <div class="image-gallery">
+          <img loading="lazy" decoding="async" class="gallery-img" src="weather_station/sheet.png" alt="Live Google Sheets Dashboard" onclick="openLightbox(this.src)" />
+          <img loading="lazy" decoding="async" class="gallery-img" src="weather_station/payload.png" alt="JSON Telemetry Payload" onclick="openLightbox(this.src)" />
+          <img loading="lazy" decoding="async" class="gallery-img" src="weather_station/google_script.png" alt="Google Apps Script Pipeline" onclick="openLightbox(this.src)" />
+        </div>
+      </div>
+
+      <div class="project-details">
+        <p><strong>ESP8266 IoT monitoring station, tracks atmospheric parameters and streams over Wi-Fi to a cloud spreadsheet for real time visualization.</strong></p>
+
+        <h3>Highlights</h3>
+        <ul>
+          <li><strong>Hardware Seismic Duration Engine:</strong> Configured a 555 timer in astable mode with a pendulum sensor, counting 100ms pulse rising edges to accurately measure earthquake duration.</li>
+          <li><strong>Multi-Sensor Integration:</strong> Interfaced DHT11 and BMP280 sensors to capture ambient temperature, relative humidity, atmospheric pressure, and altitude.</li>
+          <li><strong>Cloud Telemetry Pipeline:</strong> Bundles sensor readouts into JSON packages every 5 seconds and transmits them over Wi-Fi via HTTP POST requests to Google Apps Script.</li>
+          <li><strong>Automated Data Visualization:</strong> Routes incoming streams directly into a live Google Sheets dashboard for real-time charting and historical trend analysis.</li>
+        </ul>
+
+        <div class="tag-list">
+          <span class="tag">ESP8266</span>
+          <span class="tag">IoT Telemetry</span>
+          <span class="tag">555 Timer Logic</span>
+          <span class="tag">HTTP / JSON</span>
+          <span class="tag">Google Apps Script</span>
+        </div>
+      </div>
+    </article>
+
+
+
+
+
+
+
+
 
   </main>
 
   <!-- Lightbox Overlay for Image Expansion -->
   <div id="lightbox" class="lightbox" onclick="closeLightbox()">
-    <img id="lightbox-img" src="" alt="Expanded preview" />
+    <img loading="lazy" decoding="async" id="lightbox-img" src="" alt="Expanded preview" />
   </div>
 
   <script>
